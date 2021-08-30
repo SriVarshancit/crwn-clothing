@@ -55,8 +55,7 @@ class Directory extends Component {
                 {
                     this.state.sections.map(
                         ({id , ...otherSectionProps})=>( 
-                            // eslint-disable-next-line no-undef
-                            <MenuItem key={id} {...otherSectionProps}  />
+                             <MenuItem key={id} {...otherSectionProps}  />
                         )
 
 
